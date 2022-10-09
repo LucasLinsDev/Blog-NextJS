@@ -1,0 +1,123 @@
+.footer {
+  max-width: 1440px;
+  padding: 96px 24px;
+  margin: 0 auto;
+  color: white;
+}
+
+.footer > .row:first-child {
+  text-align: center;
+  display: block;
+}
+
+.footer .row {
+  padding: 36px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+}
+
+.footer .row .box_left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+}
+
+.footer .row .box_left ul {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  list-style: none;
+}
+
+.footer .row .box_left ul li {
+  margin-bottom: 16px;
+}
+
+.footer .row .box_left ul li h2 {
+  font-size: 36px;
+}
+
+.footer .row .box_left ul li a {
+  font-size: 16px;
+  color: #717274;
+}
+
+.footer .row .box_right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-width: 500px;
+}
+
+.footer .row .box_right h2 {
+  font-size: 36px;
+  line-height: 120%;
+}
+
+.footer .row .box_right p {
+  font-size: 16px;
+  color: #7C7D80;
+  margin-top: 16px;
+}
+
+.footer .row .box_right .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 48px;
+  margin-top: 16px;
+  gap: 16px;
+}
+
+.footer .row .box_right .form input {
+  width: 80%;
+  height: 100%;
+  border-radius: 5px;
+  border: 0px;
+  padding: 12px;
+  background: #151B26;
+  font-size: 16px;
+}
+
+.footer .row .box_right .form button {
+  width: 30%;
+  background: linear-gradient(224.78deg, #5390E3 8.12%, #1357B3 92.21%);
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  height: 48px;
+  border: 0px;
+  padding: 0px 16px;
+}
+
+.footer .row:last-child .box_right {
+  text-align: right;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .row .box_right {
+    max-width: 100%;
+  }
+  .footer .row .box_left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=footer.module.css.map */

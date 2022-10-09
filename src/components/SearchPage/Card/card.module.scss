@@ -1,0 +1,41 @@
+.card{
+  max-width:480px;
+  width:100%;
+
+  border-radius:4px;
+  border:1px solid #151B26;
+  color:white;
+  flex:1 1 180px;
+  .content{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+    padding:22px;
+    span{
+      margin-top:16px;
+    }
+    h1{
+      font-size:24px;
+      color:white;
+      line-height:130%;
+      font-weight:500;
+    }
+
+ 
+    
+  
+  }
+
+}
+
+.text_blue{
+   color:#2DC7ED;
+      background: linear-gradient(225deg, #2DC7ED 0%, #538BF0 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+}
+
+  .text{
+      color:white;
+  }

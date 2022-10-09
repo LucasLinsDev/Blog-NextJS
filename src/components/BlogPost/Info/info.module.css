@@ -1,0 +1,50 @@
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 36px 24px;
+  gap: 36px;
+  border: 1px solid #151B26;
+  border-radius: 5px;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+}
+
+.content {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+}
+
+.txt_blue {
+  font-size: 24px;
+}
+
+.txt_arroba {
+  font-size: 16px;
+  position: relative;
+  top: -8px;
+}
+
+.txt_silver {
+  font-size: 16px;
+  color: #7C7D80;
+}
+
+.txt_blue_small {
+  margin-top: 16px;
+  font-size: 16px;
+  background: linear-gradient(224.78deg, #5390E3 8.12%, #1357B3 92.21%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*# sourceMappingURL=info.module.css.map */

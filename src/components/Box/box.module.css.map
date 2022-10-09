@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACF,KAAK,EAAC,IAAI;CACX",
+    "sources": [
+        "box.module.scss"
+    ],
+    "names": [],
+    "file": "box.module.css"
+}

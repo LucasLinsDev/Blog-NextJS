@@ -1,0 +1,17 @@
+.colunista{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:16px;
+  p{
+    background: linear-gradient(225deg, #2DC7ED 0%, #538BF0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:18px;
+
+  }
+  span{
+    color:#888A8C;
+  
+  }
+}

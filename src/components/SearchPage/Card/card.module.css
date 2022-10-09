@@ -1,0 +1,45 @@
+.card {
+  max-width: 480px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #151B26;
+  color: white;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 180px;
+          flex: 1 1 180px;
+}
+
+.card .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+  padding: 22px;
+}
+
+.card .content span {
+  margin-top: 16px;
+}
+
+.card .content h1 {
+  font-size: 24px;
+  color: white;
+  line-height: 130%;
+  font-weight: 500;
+}
+
+.text_blue {
+  color: #2DC7ED;
+  background: linear-gradient(225deg, #2DC7ED 0%, #538BF0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text {
+  color: white;
+}
+/*# sourceMappingURL=card.module.css.map */

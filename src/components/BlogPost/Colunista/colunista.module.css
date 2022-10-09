@@ -1,0 +1,24 @@
+.colunista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 16px;
+}
+
+.colunista p {
+  background: linear-gradient(225deg, #2DC7ED 0%, #538BF0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+}
+
+.colunista span {
+  color: #888A8C;
+}
+/*# sourceMappingURL=colunista.module.css.map */
